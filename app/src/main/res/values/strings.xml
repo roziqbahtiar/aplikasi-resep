@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">AplikasiResep</string>
+    <string-array name="resep">
+        <item>Dendeng Paru Khas Minangkabau \n</item>
+        <item>Resep Bola-Bola Ayam \n</item>
+        <item>Resep Sayur Daun Singkong\n</item>
+        <item>Resep Kepiting Saus Padang Jagung Manis\n</item>
+    </string-array>
+    <string-array name="desc">
+        <item>Dendeng paru merupakan masakan khas Minang. Makanan ini berbahan dasar paru sapi yang telah direbus, diungkep dengan bumbu dan rempah khas Nusantara. Setelah itu, paru digoreng hingga garing dan renyah. Namun, masih memiliki tekstur kenyal di bagian dalamnya.</item>
+        <item>Bosan dengan olahan daging ayam yang biasa? Kreasi Bola-Bola Ayam ini bisa jadi inspirasi baru untuk Bunda saat memasak. Bukan cuma digoreng biasa, daging ayam yang dibentuk seperti bola membuat penampilan masakan jadi lebih menarik.</item>
+        <item>Bagi ibu-ibu rumah tangga yang sehariannya menguras tenaga yaitu mencuci pakaian, setrika, menyapu dan pel lantai rumah dan memasak masakan yang sehat, salah satunya adalah resep sayur daun singkong. Tak perlu ribet, ini dia resep mudah membuat resep sayur daun singkong yang lezat dan tentu membuat tubuh kita sehat kembali.  </item>
+        <item>Kepiting saus padang dengan campuran jagung manis ini sedang hits bagi pencinta makanan seafood. Untuk membuatnya juga tidak sulit, Anda hanya membutuhkan beberapa bahan seperti kepiting, jagung manis, telur, dan beberapa bumbu. Yuk intip resepnya!</item>
+    </string-array>
+    <string-array name="bahan">
+        <item>
+            Bahan-bahan Dendeng Paru: \n
+
+            1. 500 gram paru paru sapi \n
+            2. 1 liter air
+
+            Bumbu halus: \n
+
+            1. 8 siung bawang putih \n
+            2. 4 sdt ketumbar \n
+            3. 1 sdt merica \n
+            4. 2 1/4 sdt garam \n
+            5. 3 cm jahe \n
+            6. 8 butir kemiri \n
+
+            Bahan balado: \n
+
+            1. 5 buah cabai merah besar \n
+            2. 10 butir bawang merah \n
+            3. 2 siung bawang putih \n
+            4. 1 sdt garam \n
+            5.  1 sdt gula \n
+            6. 1 sdt jeruk nipis \n
+            7. 10 sdm minyak goreng \n
+        </item>
+        <item>
+                Bahan-bahan : \n
+
+                1.  250gr daging ayam giling. \n
+                2.  1 siung bawang bombay (cincang halus) \n
+                3.  1 batang selederi (cincang halus) \n
+                4.  50 ml air dingin \n
+                5.  1 sendok teh Selera Saus Tiram \n
+                6.  1 sendok teh baking powder \n
+                7.  1 bungkus KOBE Tepung Bumbu Putih \n
+                8.  minyak goreng secukupnya (untuk menggoreng) \n
+
+        </item>
+        <item>
+                Bahan : \n
+
+                1. 1 ikat daun singkong, iris kasar \n
+                2. 3 cm lengkuas, memarkan \n
+                3. 1 btg serai, memarkan \n
+                4. 1 btg kecombrang, iris halus \n
+                5. 1 sdm garam \n
+                6. 1 ½ sdt ebi, seduh, sangrai, haluskan \n
+                7. 1 l santan dari 1 btr kelapa \n
+                8. 4 sdm minyak goreng \n
+
+                Bumbu Halus : \n
+
+                1. 12 bh bawang merah \n
+                2. 5 siung bawang putih \n
+                3. 2 bh cabai merah \n
+                4. 5 cm kunyit, dibakar \n
+
+
+        </item>
+        <item>
+                Bahan Kepiting Saus Padang Jagung Manis: \n
+
+                1. 2 ekor kepiting ukuran sedang \n
+                2. 1 buah jagung manis \n
+                3. 4 sdm saus tiram \n
+                4. Air secukupnya \n
+                5. Garam secukupnya \n
+                6. Gula secukupnya \n
+                7. 1 butir telur, kocok lepas \n
+                8. 3 sdm saus tomat \n
+                9. 3 sdm saus sambal \n
+                10. 1 sdt merica bubuk \n
+                11. Minyak sayur secukupnya \n
+
+                Bumbu Halus Kepiting Saus Padang Jagung Manis: \n
+
+                1. 1 ruas jahe \n
+                2. 1 ruas kunyit, bakar \n
+                3. 6 buah bawang merah \n
+                4. 3 siung bawang putih \n
+                5. 100 gr cabai keriting \n
+                6. 15 buah cabai rawit \n
+
+
+        </item>
+    </string-array>
+    <string-array name="cara">
+        <item>
+                Cara membuat Dendeng Paru: \n
+                1. Rebus paru sapi dengan serai dan daun salam. Iris tipis paru lalu rebus lagi dengan bumbu halus sampai meresap dan air mengering. Goreng paru sampai matang hingga kecoklatan atau kering. \n
+                2. Tumbuk kasar cabai merah, bawang merah, bawang putih. Panaskan minyak lalu tumis bumbu yang ditumbuk kasar sampai matang. Tambahkan garam. Lada hitam gula dan jeruk nipis \n
+                3. Letakkan paru di piring sajian lalu siram dengan bumbu balado di atasnya. Dendeng paru siap disajikan. \n
+        </item>
+        <item>
+                Cara Memasak : \n
+                1.  Campur ayam, bawang bombay dan daun seledri. Tambahkan air dingin dan Selera Saus Tiram. Aduk hingga rata.\n
+                2.  Masukan baking powder dan KOBE Tepung Bumbu Putih, uleni sampai kalis. \n
+                3.  Ambil 1 sendok makan adonan. Bentuk bola-bola hingga halus, sisihkan. \n
+                4.  Goreng dalam minyak panas hingga berwarna kecoklatan. Tiriskan. \n
+                5.  Sajikan Bola-Bola Ayam selagi hangat. \n
+        </item>
+        <item>
+                Cara Memasak : \n
+
+                1. Rebus daun singkong dan 1 sendok teh garam dalam 1 liter air sampai matang. Angkat. Tiriskan dan peras. \n
+                2. Panaskan minyak goreng, tumis bumbu halus, lengkuas, serai, dan kecombrang sampai harum. \n
+                3. Masukkan ebi, aduk rata. \n
+                4. Tambahkan daun singkong, aduk rata. Masukkan santan dan garam. Masak sampai matang. \n
+        </item>
+        <item>
+                Cara Membuat kepiting saus padang jagung manis: \n
+
+                1. Bersihkan kepiting, belah satu ekor kepiting menjadi dua bagian, sisihkan. \n
+                2. Potong-potong jagung manis, sisihkan. \n
+                3. Haluskan semua bumbu halus. \n
+                4. Panaskan minyak, tumis bumbu halus hingga harum. \n
+                5. Masukkan kepiting, jagung manis, aduk rata. \n
+                6. Masukkan saus tiram, saus sambal, saus tomat, garam, gula, lada dan air secukupnya, aduk rata, test rasa. \n
+                7. Masak kembali kepiting hingga semua bumbu meresap ke dalam kepiting dan kuah terlihat mengental. \n
+                8. Angkat dan sajikan selagi masih hangat. \n
+            </item>
+    </string-array>
+    <string-array name="title">
+        <item>Cara 1</item>
+        <item>Cara 2</item>
+        <item>Cara 3 </item>
+        <item>Cara 4 </item>
+    </string-array>
+
+
+</resources>
