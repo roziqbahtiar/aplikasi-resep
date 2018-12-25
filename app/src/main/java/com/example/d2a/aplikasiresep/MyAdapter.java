@@ -10,21 +10,22 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.example.d2a.aplikasiresep.data.ResepModel;
+
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyHolder>{
 
-    private final LinkedList<String> data1;
-    private final LinkedList<String> data2;
-    private final LinkedList<String> bahan;
-    private final LinkedList<String> cara;
+
     private LayoutInflater mInflater;
-    public MyAdapter(Context ct,LinkedList<String> s1,LinkedList<String> s2,LinkedList<String> s3,LinkedList<String> s4){
+
+    List<ResepModel> resepModelList = new ArrayList<>();
+
+    public MyAdapter(Context ct, List<ResepModel> resepModelList){
         mInflater = LayoutInflater.from(ct);
-        this.data1 = s1;
-        this.data2 = s2;
-        this.bahan = s3;
-        this.cara = s4;
+        this.resepModelList = resepModelList;
     }
     @NonNull
     @Override
@@ -36,22 +37,24 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyHolder>{
 
     @Override
     public void onBindViewHolder(@NonNull MyAdapter.MyHolder holder, int position) {
-        String mdata1 = data1.get(position);
+        String mdata1 = resepModelList.get(position).getTitle();
         holder.t1.setText(mdata1);
-        String mdata2 = data2.get(position);
+        String mdata2 = resepModelList.get(position).getDesc();
         holder.t2.setText(mdata2);
 
     }
 
     @Override
     public int getItemCount() {
-        return data1.size();
+        return resepModelList.size();
     }
 
     public class MyHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
         public final TextView t1,t2;
         final MyAdapter mAdapter;
         Context context;
+
+
         public MyHolder(View itemView,MyAdapter adapter) {
             super(itemView);
             t1 = itemView.findViewById(R.id.text1);
@@ -60,12 +63,14 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyHolder>{
             itemView.setOnClickListener(this);
 
         }
+
+
         @Override
         public void onClick(View view){
             int mPosition = getLayoutPosition();
-            String element = data1.get(mPosition);
-            String element1 = bahan.get(mPosition);
-            String element2 = cara.get(mPosition);
+            String element = resepModelList.get(mPosition).getTitle();//data1.get(mPosition);
+            String element1 = resepModelList.get(mPosition).getBahan();//bahan.get(mPosition);
+            String element2 = resepModelList.get(mPosition).getCara();//cara.get(mPosition);
             Intent intent = new Intent(view.getContext(), ResepTampil.class);
             intent.putExtra("title",element);
             intent.putExtra("bahan", element1);

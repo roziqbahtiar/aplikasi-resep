@@ -10,6 +10,7 @@ public class ResepTampil extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.reseptampil);
+
         Intent intent = getIntent();
         String title = intent.getStringExtra("title");
         String bahan = intent.getStringExtra("bahan");

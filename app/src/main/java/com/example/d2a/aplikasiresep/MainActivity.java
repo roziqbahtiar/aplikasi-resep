@@ -5,39 +5,71 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
+import com.example.d2a.aplikasiresep.data.DBHelper;
+import com.example.d2a.aplikasiresep.data.ResepModel;
+
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
 
 
-    private LinkedList<String> s1;
-    private LinkedList<String> s2 = new LinkedList<String>();
-    private LinkedList<String> s3 = new LinkedList<String>();
-    private LinkedList<String> s4 = new LinkedList<String>();
+//    private LinkedList<String> s1;
+//    private LinkedList<String> s2 = new LinkedList<String>();
+//    private LinkedList<String> s3 = new LinkedList<String>();
+//    private LinkedList<String> s4 = new LinkedList<String>();
     private RecyclerView r1;
     private MyAdapter ad;
+
+    public DBHelper dbHelper;
+    public List<ResepModel> resepModelList;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
-
-        s1 = new LinkedList<String>(Arrays.asList(getResources().getStringArray(R.array.resep)));
-        s2 = new LinkedList<String>(Arrays.asList(getResources().getStringArray(R.array.desc)));
-        s3 = new LinkedList<String>(Arrays.asList(getResources().getStringArray(R.array.bahan)));
-        s4 = new LinkedList<String>(Arrays.asList(getResources().getStringArray(R.array.cara)));
         setContentView(R.layout.activity_main);
+
+
+        dbHelper = new DBHelper(MainActivity.this, resepModelList);
+        resepModelList = new ArrayList<>();
+        resepModelList  = dbHelper.getListResep();
+
+
         r1 = findViewById(R.id.recycler);
-        ad = new MyAdapter(this,s1,s2,s3,s4);
+        ad = new MyAdapter(this,resepModelList);
         r1.setAdapter(ad);
         r1.setLayoutManager(new LinearLayoutManager(this));
+
+        setTitle("Resep Masakan");
+
     }
 
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+
+        return true;
+
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
 
 
+        if (item.getItemId() == R.id.infoKoki){
+           Intent intent = new Intent(MainActivity.this, Barcode.class);
+           startActivity(intent);
+        }
+        return true;
+    }
 }

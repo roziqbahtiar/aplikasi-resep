@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">AplikasiResep</string>
+    <string name="info_koki">Info Koki</string>
     <string-array name="resep">
-        <item>Dendeng Paru Khas Minangkabau \n</item>
-        <item>Resep Bola-Bola Ayam \n</item>
-        <item>Resep Sayur Daun Singkong\n</item>
-        <item>Resep Kepiting Saus Padang Jagung Manis\n</item>
+        <item>Dendeng Paru Khas Minangkabau</item>
+        <item>Resep Bola-Bola Ayam</item>
+        <item>Resep Sayur Daun Singkong</item>
+        <item>Resep Kepiting Saus Padang Jagung Manis</item>
     </string-array>
     <string-array name="desc">
         <item>Dendeng paru merupakan masakan khas Minang. Makanan ini berbahan dasar paru sapi yang telah direbus, diungkep dengan bumbu dan rempah khas Nusantara. Setelah itu, paru digoreng hingga garing dan renyah. Namun, masih memiliki tekstur kenyal di bagian dalamnya.</item>

@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView
-    android:layout_height="fill_parent"
-    android:layout_width="fill_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -11,16 +7,11 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="5dp"
     tools:context=".MainActivity">
 
-
-
-    <TextView
-
+  <!--  <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
         android:fontFamily="serif-monospace"
         android:background="#b8a0c8"
         android:text="Resep Masakan"
@@ -30,7 +21,7 @@
         android:textStyle="bold"
         android:typeface="sans"
        />
-
+-->
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler"
         android:layout_width="match_parent"
@@ -41,4 +32,3 @@
 
 
 </LinearLayout>
-</ScrollView>
