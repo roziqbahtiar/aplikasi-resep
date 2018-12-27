@@ -1,17 +1,60 @@
 <resources>
-    <string name="app_name">AplikasiResep</string>
+    <string name="app_name">Aplikasi Resep</string>
     <string name="info_koki">Info Koki</string>
     <string-array name="resep">
         <item>Dendeng Paru Khas Minangkabau</item>
         <item>Resep Bola-Bola Ayam</item>
         <item>Resep Sayur Daun Singkong</item>
         <item>Resep Kepiting Saus Padang Jagung Manis</item>
+
+        <item>Soto Ayam Lamongan</item>
+        <item>Bakso Pedas</item>
+        <item>Nasi goreng</item>
+        <item>Sate Jamur Tiram</item>
+        <item>Capcay Sayur Spesial</item>
+        <item>Sayur Lodeh Terong</item>
+        <item>Sayur Labu</item>
+        <item>Sayur daun singkong</item>
+        <item>Sayur Sop Baso</item>
+        <item>Sayur Rebung</item>
+        <item>Sayur Sawi</item>
+        <item>Sayur bening bayam</item>
+        <item>Lele cabe ijo</item>
+        <item>Ikan nila bakar</item>
+        <item>Gurami bakar</item>
+        <item>Nasi Kuning</item>
+        <item>Nasi Uduk</item>
+        <item>Nasi Goreng Bakso Telur</item>
+        <item>Sandwich Telur Keju</item>
+        <item>Sandwich Isi Sosis Keju</item>
+
     </string-array>
     <string-array name="desc">
         <item>Dendeng paru merupakan masakan khas Minang. Makanan ini berbahan dasar paru sapi yang telah direbus, diungkep dengan bumbu dan rempah khas Nusantara. Setelah itu, paru digoreng hingga garing dan renyah. Namun, masih memiliki tekstur kenyal di bagian dalamnya.</item>
         <item>Bosan dengan olahan daging ayam yang biasa? Kreasi Bola-Bola Ayam ini bisa jadi inspirasi baru untuk Bunda saat memasak. Bukan cuma digoreng biasa, daging ayam yang dibentuk seperti bola membuat penampilan masakan jadi lebih menarik.</item>
         <item>Bagi ibu-ibu rumah tangga yang sehariannya menguras tenaga yaitu mencuci pakaian, setrika, menyapu dan pel lantai rumah dan memasak masakan yang sehat, salah satunya adalah resep sayur daun singkong. Tak perlu ribet, ini dia resep mudah membuat resep sayur daun singkong yang lezat dan tentu membuat tubuh kita sehat kembali.  </item>
         <item>Kepiting saus padang dengan campuran jagung manis ini sedang hits bagi pencinta makanan seafood. Untuk membuatnya juga tidak sulit, Anda hanya membutuhkan beberapa bahan seperti kepiting, jagung manis, telur, dan beberapa bumbu. Yuk intip resepnya!</item>
+        <item>soto ayam yang mudah dibuat &amp; praktis dengan resep asli dari daerah Lamongan</item>
+        <item>makanan olahan yang terbuat dari daging segar yang dicincang, bahan pengisi (filler), bahan pengikat, bumbu-bumbu rempah.</item>
+        <item>nasi yang digoreng dan diaduk dalam minyak goreng atau margarin, biasanya ditambah kecap manis, bawang merah, bawang putih, asam jawa, lada dan bumbu-bumbu lainnya, seperti telur, ayam, dan kerupuk</item>
+        <item>makanan yang terbuat dari potongan daging kecil-kecil yang ditusuk sedemikian rupa dengan tusukan lidi tulang daun kelapa atau bambu kemudian dipanggang menggunakan bara arang kayu.</item>
+        <item>hidangan khas Tionghoa yang populer yang khas karena dimasak dari banyak macam sayuran.</item>
+        <item>masakan sayur yang berkuah santan khas Indonesia, terutama di daerah Jawa Tengah. Sayur lodeh mempunyai berbagai macam variasi terutama pada bumbunya, ada yang santannya berwarna putih dan ada juga yang santannya berwarna kuning kemerahan.</item>
+        <item>masakan sayur yang berkuah dengan potongan labu.</item>
+        <item>daun singkong ini erupakan sebuah sajian mantap yang memiliki kandungan gizi yang sangat bermanfaat bagi tubuh anda sekalian.
+Sumber: https://selerasa.com/resep-masak-dan-cara-mengolah-sayur-daun-singkong-tumbuk-sajian-sedap-paling-mantap-dan-nikmat-namun-sederhana | Selerasa.com</item>
+        <item>Sayur sop sosis bakso ini pada umumnnya sama dengan sayur sop sosis bakso jenis lainnya. Namun yang membedakan pada sop bakso yang kami sajikan kali ini yaitu rasanya. Dimana rasa dari sayur ini pastinya akan lebih enak dibandingkan dengan sayur sop yang lainnya. </item>
+        <item>jenis sayuran yang cukup dikenal di kawasan Asia memang cukup menarik untuk diolah menjadi sebuah hidangan mantap, di samping rasanya yang begitu menggoda, manfaat yang dimilikinya juga ternyata sangatlah besar dan juga pnting bagi tubu</item>
+        <item>sayur sawi putih ini pun memiliki citra rasa yang begitu enak. Ditambah lagi dengan rasa kuah yang begitu gurih dan campuran rempah dan kompisisi bumbu pilihan. Dengan bahan pelengkap tahu ini, maka hidangan berkuah santan ini akan terasa semakin spesial. </item>
+        <item>Sayuran hijau ini bisa diolah menjadi berbagai macam jenis makanan. Mulai diolah dengan cara ditumis, disayur ataupun dibuat keripik. </item>
+        <item>Hidangan ikan lele dengan cabe hijau adalah hidangan yang mudah.</item>
+        <item>Sajian ikan nila bakar bumbu special mungkin seringkali ibu dan keluarga nikmati di restoran. </item>
+        <item>Hidangan masakan ikan gurame salah satu jenis makanan yang banyak sekali peminatnya adalah dengan cara di bakar.</item>
+        <item>Nasi kuning merupakan salah satu sajian nasi yang biasanya banyak disajikan ketika perayaan tertentu, baik itu hajatan, syukuran atau lain sebagainya. Selain itu, nasi kuning juga merupakan salah satu menu yang digemari untuk menu sarapan. Rasanya yang enak dengan menu pelengkap yang sehat sangat cocok dijadikan sebagai hidangan ketika pagi hari.</item>
+        <item>Nasi uduk dengan harga yang terjangkau dan disukai oleh semua kalangan sangat pas untuk dijadikan menu sarapan atau makan malam. Nasi uduk hampir mirip dengan nasi lemak hanya saja menggunakan tambahan bumbu rempah-rempah yang khas.Nasi uduk dimasak dengan santan yang dibumbui dengan berbagai rempah seperti merica, serai, jahe, kayu manis dan juga pala. Inilah yang membedakan nasi uduk dengan nasi lemak. </item>
+        <item>Nasi goreng menjadi menu favorit saat sarapan. Rasanya yang enak dan nikmat menggugah selera makan. Buat variasi nasi goreng yang berbeda dari biasanya. Nasi goreng bisa ditambahkan banyak bahan agar lebih spesial. Telur dan bakso bisa dijadikan bahan pelengkap untuk menyempurnakan nasi goreng untuk sarapan kali ini. </item>
+        <item>Nikmati lezatnya hidangan roti sandwich yang enak di rumah anda dengan isian telur keju yang sedap hidangan ini akan tentu mudah dibuat di rumah. </item>
+        <item>Nikmati lezatnya hidangan roti sandwich yang enak di rumah anda dengan isian sosis keju yang sedap hidangan ini akan tentu mudah dibuat di rumah. </item>
     </string-array>
     <string-array name="bahan">
         <item>
@@ -99,6 +142,284 @@
 
 
         </item>
+
+        <item>1/2 ekor ayam\n
+secukupnya garam\n
+secukupnya gula\n
+secukupnya lada bubuk\n
+secukupnya irisan seledri dan kol\n
+secukupnya minyak goreng untuk menumis\n
+3 lembar daun salam\n
+3 lembar daun jeruk\n
+1 batang serai geprek\n
+Bumbu Halus :\n
+10 siung bawang merah\n
+5 siung bawang putih\n
+1 cm kunyit bakar\n
+1 cm jahe bakar\n
+1 cm lengkuas\n
+5 butir kemiri sangrai\n
+Bahan Koya:\n
+2 pcs kerupuk udang\n
+5 siung bawang putih goreng</item>
+        <item>20 bh bakso sapi/ayam\n
+3 sdm saos tiram\n
+3 sdm kecap manis\n
+4 sdm saos sambal extra pedas\n
+3 lembar daun jeruk\n
+1 lembar daun salam\n
+Secukupnya lada bubuk\n
+Secukupnya garam\n
+Secukupnya gula\n
+Bawang bombay\n
+Daun bawang\n
+Bawang goreng u/ taburan\n
+Minyak u/ menumis\n
+secukupnya Air\n
+Bumbu ulek\n
+16 cabai rawit merah (cabai setan)\n
+10 buah cabai merah\n
+secukupnya Garam\n
+5 siung bawang merah\n
+3 siung bawang putih\n
+</item>
+        <item>Bahan-bahan \n
+2 piring nasi\n
+1 btr telur\n
+5 butir bakso, ptong jd 4\n
+1/2 bh wortel, iris tipis\n
+1 btg dun bawang\n
+Scukupnya garam dan kaldu jamur\n
+Secukupnya minyak utk menumis bumbu\n
+1 sdm minyak wijen\n
+👉bumbu halus :\n
+3 siung bawang merah\n
+2 siung bawang putih\n
+3 cabe keriting\n
+</item>
+        <item>Bahan-bahan \n
+1/2 kg jamur tiram\n
+Bumbu:\n
+1/4 kacang tanah\n
+2 siung bawang putih\n
+2 siung bawang merah\n
+2 buah cabe merah besar\n
+1/2 gula merah\n
+3 sdm kecap manis\n
+Secukupnya garam\n
+Secukupnya gula\n
+Secukupnya lada\n
+Topping:\n
+Bawang goreng\n
+Sambal\n
+</item>
+        <item>Bahan-bahan \n
+5 porsi\n
+2 buah wortel ukuran sedang\n
+5 buah buncis\n
+3 buah kentang ukuran sedang\n
+1 ikat sawi hijau\n
+Secukupnya kol putih\n
+4 kotak tahu putih\n
+1 butir telur\n
+Secukupnya jamur tiram\n
+2 batang daun bawang dan seledri\n
+2 sdm saos tiram\n
+2 sdm saos cabai\n
+3 sdm kecap manis\n
+1 sdt lada\n
+1 sdt garam\n
+Secukupnya gula\n
+Penyedap ayam\n
+2 sdm rebon kering\n
+1 bulatan bawang bombay\n
+Bumbu halus:\n
+3 siung bawang merah\n
+5 siung bawang putih\n
+5 buah cabai rawit\n
+secukupnya Minyak goreng\n
+</item>
+        <item>Bahan-bahan \n
+2 buah terong\n
+5 buah tahu goreng dan iris\n
+3 gelas santan dicampur kunyit sedikit\n
+4 siung bawang putih\n
+5 siung bawang merah\n
+6 biah cabai rawit\n
+1 ikat daun bawang\n
+2 buah kemiri\n
+Secukupnya daun salam\n
+Secukupnya penyedap rasa\n
+Secukupnya gula pasir\n
+Secukupnya garam\n
+</item>
+        <item>Bahan-bahan \n
+2 bh Labu siam, potong\n
+10 ekor Udang, cincang\n
+1 siung Baput, iris\n
+2 siung Bamer, iris\n
+2 lbr Daun salam\n
+Secukupnya\n
+Minyak masak\n
+Garam\n
+Totole\n
+</item>
+        <item>Bahan-bahan \n
+4 ikat daun singkong\n
+2 batang sereh digeprek\n
+4 lembar daun salam\n
+1 bungkus kara kecil\n
+1.5 liter air hangat\n
+Suiran ikan tuna atau tongkol rebus (kehabisan stok)\n
+Bumbu halus\n
+1 ons cabe keriting merah\n
+6 siung bawang putih\n
+3 buah kemiri\n
+1 sdt terasi / 1 sdm ebi\n
+1 sdm garam\n
+1 sdm Gula merah\n
+Minyak goreng\n
+</item>
+        <item>Bahan-bahan	\n
+Wortel\n
+Kentang\n
+Kol\n
+Buncis\n
+Baso secukupnya (aku beli 2 kantong)\n
+Bumbu :\n
+Bawang putih\n
+Ladaku\n
+Royco rasa ayam\n
+Garam\n
+Tomat\n
+</item>
+        <item>Bahan-bahan	\n
+1/2 kg sayur rebung (masak kurleb 30 mnt,tiriskan)\n
+bahan bumbu:\n
+2 siung bp\n
+5 siung bm\n
+seruas lengkuas\n
+2 buah kemiri\n
+3 buah lombok besar\n
+10 cabe rawit (saya masukkan utuh pd sayur)\n
+</item>
+        <item>Bahan-bahan	\n
+1porsi\n
+1 ikat sayur sawi\n
+2 siung bawang merah\n
+2 siung bawang putih\n
+3 buah cabai rawit(sesuai selera)\n
+1 buah tomat(dipotong)\n
+1/2 sdt masako\n
+100 ml air\n
+Secukupnya garam(sesuai selera)</item>
+        <item>Bahan-bahan	\n
+Bawang goreng untuk taburan\n
+1 ikat Bayam\n
+1 buah Jagung manis\n
+2 lonjor Kacang panjang\n
+2 buah Wortel\n
+1 batang Seledri\n
+1/2 buah Tomat\n
+500 cc Air\n
+1 sdt Gula pasir\n
+1 cm Lengkuas\n
+2 lembar Daun salam\n
+secukupnya Garam\n
+Bumbu iris :\n
+4 Bawang merah\n
+2 Bawang putih\n
+2 buah Kencur</item>
+        <item>Bahan-bahan	\n
+1/2 kg lele\n
+15 buah cabe ijo\n
+8 siung bawang merah\n
+4 siung bawang putih\n
+1 buat tomat ijo klw ada y bun yg merah pun gpp\n
+Gula\n
+Garam\n
+Penyedap(skip)\n
+Asam jeruk\n
+Minyak utk menumis dan menggoreng\n
+</item>
+        <item>Bahan-bahan	\n
+2 ekor ikan nila\n
+2 buah jeruk nipis\n
+bumbu halus\n
+5 siung bawang merah\n
+4 siung bawah putih\n
+lengkuas\n
+kunyit\n
+kencur\n
+1 batang serai\n
+</item>
+        <item>Bahan-bahan	\n
+2 ekor ikan gurami\n
+2 sdm kecap manis\n
+1 buah jeruk nipis\n
+2 buah bawang putih\n
+secukupnya Ketumbar bubuk\n
+1 / ruas kunyit\n
+secukupnya Garam\n
+</item>
+        <item>Bahan-bahan	\n
+6 porsi\n
+450 ml Beras\n
+1 bungkus Santan jadi\n
+2 batang Serai\n
+3 lembar Daun salam\n
+3 lembar Daun jeruk\n
+2 cm Lengkuas\n
+Air\n
+Minyak goreng\n
+Bumbu halus:\n
+4 siung Bawang merah\n
+3 siung Bawang putih\n
+5 cm Kunyit\n
+1,5 sdt Garam\n
+1 sdt penyedap rasa\n
+</item>
+        <item>Bahan-bahan	\n
+5 porsi\n
+2 cup beras (di rumah ukurannya pakai kaleng bekas skm) 😂\n
+1 sdm munjung garam (pas buat ukuran berasnya)\n
+Secukupnya santan (saya gunakan santan instan 65 ml ditambah air hingga campurannya sebanyak air memasak nasi putih biasa)\n
+1 batang serai\n
+1 lembar daun pandan\n
+3 lembar daun salam\n
+</item>
+        <item>Bahan-bahan	\n
+2 Porsi\n
+Bahan Utama\n
+2 Porsi Nasi Putih\n
+1 Butir Telur Ayam\n
+5 Butir Bakso\n
+Bumbu Halus\n
+4 Siung Bawang merah\n
+3 Siung Bawang Putih\n
+3 Buah Cabai Merah Keriting\n
+1 Buah Cabai Rawit\n
+Secukupnya Garam\n
+</item>
+        <item>Bahan-bahan	\n
+4 lembar roti tawar\n
+2 buah telur\n
+Sedikit kol/selada sesuai selera\n
+Sedikit wortel\n
+Saus sambal/saus tomat jika tak ingin pedas\n
+Garam\n
+Keju parut\n
+Mustard/Mayonaise\n
+Mentega untuk memanggang\n
+</item>
+        <item>Bahan-bahan	\n
+4 lembar roti tawar\n
+6 lembar selada / secukupnya saja\n
+1 buah sosis ukuran besar (saya iris bagi beberapa)\n
+2 lembar keju (saya pake keju red dr anchor yg bisa meleleh)\n
+sesuai selera Saos sambel/saos tomat\n
+Mentega utk memanggang roti dan sosis\n
+</item>
     </string-array>
     <string-array name="cara">
         <item>
@@ -135,6 +456,346 @@
                 7. Masak kembali kepiting hingga semua bumbu meresap ke dalam kepiting dan kuah terlihat mengental. \n
                 8. Angkat dan sajikan selagi masih hangat. \n
             </item>
+        <item>\n
+        Langkah-langkah\n\n
+        Rebus 1/2 ekor ayam yang sudah dibersihkan selama 30 menit\n
+        Blender semua bumbu halus\n
+\n
+\n
+        Tumis bumbu halus yang sudah di blender, masukkan daun salam, daun jeruk, dan batang serai geprek sampai harum\n
+\n
+\n
+        Masukkan tumisan kedalam rebusan ayam, tambahkan garam, gula, dan lada, aduk sampai merata\n
+\n
+\n
+        Rebus ayam &amp; kuah soto selama 20 menit. Setelah 20 menit angkat ayam dan goreng hingga ayam bewarna kecoklatan\n
+\n
+\n
+        Suwir suwir ayam yang telah digoreng. Untuk bumbu koya tumbuk kerupuk udang dan bawang putih goreng sampai halus\n
+\n
+\n
+        Tambahkan potongan seledri, irisan kol, sambal, koya, &amp; kecap\n
+\n
+\n
+        Soto ayam lamongan siap dihidangkan 🍲\n
+\n
+        </item>\n
+        <item>Langkah\n
+        Potong bakso seperti bentuk bunga (2 irisan diatas tapi jangan sampai putus)\n
+\n
+\n
+        Ulek bumbu halus\n
+\n
+\n
+        Panaskan minyak, lalu masukan bawang bombay, setelah agak layu dan wangi tambahkan bumbu halus, aduk sebentar\n
+\n
+\n
+        Lalu tambahkan kecap manis, saos tiram, saos sambal, garam, gula, lada, air, daun jeruk, daun salam..aduk hingga merata lalu masukan baksonya\n
+\n
+\n
+\n
+        Sesaat sebelum diangkat tambahkan daun bawang dan penyedap rasa (gk wajib si) lalu aduk lagi sampai agak kering\n
+\n
+\n
+        Angkat dan sajikan\n
+\n
+        </item>\n
+        <item>Langkah\n
+        Tumis bumbu,, masukkan wortel hingga wortel matang, lalu masukkan telur aduk, tambahkan minyak wijen.\n
+\n
+\n
+        Beri garam dan kaldu jamur lalu masukkan nasi. Setelah matang, masukkan daun bawang.\n
+\n
+\n
+        Sajikan nasi bersama lauk dan krupuk..\n
+\n
+        </item>\n
+        <item>Langkah\n
+        Cuci bersih jamur, suwir agak lebih besar. Lalu rebus sebentar kaaih garam kurleb 10menit. Angkat tiriskan lalu peras. Tusuk2 menggunakan tusukan sate.\n
+\n
+\n
+        Bumbu: haluskan semua bumbu. (lebih enak pakai blender) lalu masak di wajan tambahkan air beri garam, gula, lada, kecap manis, gula merah. Test rasa. Masak hingga kacang mengeluarkan minyak dam lln kental.\n
+\n
+\n
+        Balurkan bumbu ke sate jamur smpai merata. Diamkan kurleb 15menit. Tunggu hingga meresap.\n
+\n
+\n
+        Next. Bakar di teflon..\n
+\n
+\n
+\n
+        Sajikan dengan taburan bawang goreng dan sambal.\n
+\n
+\n
+        </item>\n
+        <item>Langkah\n
+        Potong-potong semua sayuran sesuai selera, cuci bersih.\n
+\n
+\n
+        Tumis bumbu halus hingga mewangi, masukan rebon, saos tiram, saos cabai, kecap manis, lada, garam, gula dan penyedap, tambahkan sedikit saja air agar tidak kering. Aduk-aduk hingga matang dan wangi.\n
+\n
+\n
+        Masukan sayuran bertekstur keras terlebih dahulu, masak hingga kurang lebih 5 menit, sambil sesekali diberi air agar tidak kering.\n
+\n
+\n
+        Setelah lunak, masukan sayuran yang lain. Aduk hinnga rata. Terakhir masukan tahu, jangan terlalu sering diaduk agar tidak hancur.\n
+\n
+\n
+        Koreksi rasa. Sajikan bersama nasi hangat dan menu pendamping lainnya.\n
+\n
+\n
+        </item>\n
+        <item>Langkah\n
+        Tumis bumbu di panci yang sudah terisi minyak sampai harum dan isi air secukupnya sampai mendidih\n
+\n
+\n
+        Masukkn terong, tahu goreng, daun bawang dan tunggu sampai terongnya setengah lunak\n
+\n
+\n
+        Lalu dirasa sudah mendidih msukkan santan aduk sampai mendidih lagi dan hidangkanw\n
+\n
+        </item>\n
+        <item>Langkah\n
+        Panaskan minyak, tumis duo baput dan daun salam. Masukan udang tumis2 sampai berubah warna\n
+\n
+\n
+        Masukan labu, tumis2 sebentar lalu tambahkan air, garam n totole. Masak sampai labu lunak\n
+\n
+\n
+        Simple dan Endeusss😆\n
+\n
+\n
+        </item>\n
+        <item>Langkah\n
+        Rebus daun singkong yang telah di petik. Kurang lebih 10 menit lalu bilas air dingin dan keringkan. Kemudian di potong-potong.\n
+\n
+\n
+\n
+        Sambil merebus daun singkong rebus juga cabe dan bawang putih jgn dijadi satu dengan daun singkong kenapa karna bawang putih ny bisa berubah warna. Setelah di rebus ulek bersama bumbu halus lainnya.\n
+\n
+\n
+\n
+        Tumis hingga harum masukan daun singkong yg telah di potong - potong. Aduk rata. (Tambahan kalau pakai ikan tuna/ tongkol masukan ikan ny terlebih dahulu yg sudah d suir baru daun singkong)\n
+\n
+\n
+        Masukan air 1.5 liter air hangat aduk sebentar dan tunggu hingga mendidik\n
+\n
+\n
+\n
+        Lalu masukan santan dan gula merah. Santan ny cairkan dimangkok kecil biar tidak pecah.\n
+\n
+\n
+\n
+        Tunggu hingga mendidih dan sajikan bersama krupuk serta nasi hangat\n
+\n
+        </item>\n
+        <item>Langkah\n
+        Potong semua sayuran, terus panaskan air, (banyaknya air, kira-kira aja yaa)\n
+\n
+\n
+        Sambil nunggu air mendidih, tumbuk bawang putih, lalu tumis sampe wangi. Setelah air mendidih, masukan bawang putih yg sudah di tumis tadi, terus masukan baso terlebih dulu, biar nanti mateng sempurna. Terus masukan wortel, kentang, dan terakhir masukan kol dan buncis.\n
+\n
+\n
+        Lalu tambahkan royco rasa ayam, garam, dan ladaku.\n
+\n
+\n
+        Pas udah mateng, tambahkan tomat, daun bawang daun dan seledri, lalu kasih bawang goreng. Tes rasa, dan sajikan 😊\n
+\n
+        </item>\n
+        <item>Langkah\n
+        Haluskan semua bahan bumbu, kecuali lengkuas (digeprek),dan cabe rawit saya masukkan utuh\n
+\n
+\n
+        Tumis bumbu masukkan lengkuas dan cane rawit utuh beri 50 ml air, sampai mendidih lalu masukkan sayur rebung, tambahkan air 500 ml masak kurleb 20 menit sampai mendidih, baru masukkan santan instan, aduk2 masak kurleb 5 mnt, matang angkat sajikan 🤗\n
+\n
+        </item>\n
+        <item>Langkah\n
+        30 menit\n
+        Cuci sawi sampai bersih (bagian tangkai nya di buang)lalu di potong potong\n
+\n
+\n
+\n
+        Setelah itu iris bawang putih,merah,cabai,dan tomat\n
+\n
+\n
+\n
+        Siapkan wajan dengan minyak secukupnya.Masukkan irisan bawang,tomat,cabai sampai mengeluarkan baunya\n
+\n
+\n
+\n
+        Masukkan sayur sawi,aduk aduk.Jika sawi sudah mulai mengecil tambahkan air,aduk lagi.\n
+\n
+\n
+\n
+        Lalu berikan garam dan masako\n
+\n
+\n
+        Sajikan di mangkung atau piring dengan topping sesuai selera(telur,bawang goreng dll)\n
+\n
+\n
+\n
+        </item>\n
+        <item>Langkah\n
+        Potong2 sayuran. Cuci bersih. Iris2 bumbu. Sisihkan.\n
+\n
+\n
+        Rebus air sampai mendidih. Masukkan jagung manis, wortel, kacang panjang, lengkuas, daun salam dan bumbu iris. Bila wortel telah lunak masukkan bayam, garam, gula pasir, tomat dan seledri. Koreksi rasa. Angkat Taburi bawang goreng. Sajikan\n
+\n
+        </item>\n
+        <item>Langkah\n
+        Cuci lele dan bersihkan,berikan asam dan garamnya\n
+\n
+\n
+        Cuci lele dan bersihkan,berikan asam dan garamnya\n
+\n
+\n
+        Goreng ikan sampai matng\n
+\n
+\n
+        Cuci lele dan bersihkan,berikan asam dan garamnya\n
+\n
+\n
+        Masukkan gula,garam,penyedap asam jeruk ke blender, dan mskka cabe ijo jg sudah di msk td ke blender\n
+\n
+\n
+        Proses peke blender, tapi sebentar2 aj y bun, hidupkan sebentar matikan ulangi 2-3 kali sampai cabe tergiling kasar,\n
+\n
+\n
+        Susun ikan di wadah dan tuangkan cabe yg di blender td di atasnya, sajikan. Sedap 😍😍\n
+\n
+        </item>\n
+        <item>Langkah\n
+        Bersihkan ikan nila lalu beri perasan jeruk nipis\n
+\n
+\n
+        Haluskan bumbu2 diatas lalu baluri ke ikan menggunakan serai\n
+\n
+\n
+        Lalu bakar ikan di atas tungku dengan arang atau di oven\n
+\n
+\n
+        Balik ikan sesekali dan oles kembali sisa bumbu pada ikan\n
+\n
+\n
+        Setelah matang ikan siap disajikan dengan sambal favorit\n
+\n
+        </item>\n
+        <item>Langkah\n
+        Bersihkan gurami. Belah jd 2. Kucuri dgn jeruk nipis\n
+\n
+\n
+        Haluskan bawang putih. Ketumbar, kunyit dan garam Balurkan pada gurami.. Biarkan 1 jam hingga meresap\n
+\n
+\n
+\n
+        Bakar hingga matang.\n
+\n
+\n
+        Bakar diatas teflon anti lengket, dan oles2 dgn menggunakan kecap\n
+\n
+\n
+\n
+        Sajikan\n
+\n
+\n
+        </item>\n
+        <item>Langkah\n
+        30 menit\n
+        Bersihkan beras\n
+\n
+\n
+        Haluskan bumbu, saya pakai blender dengan pelarutnya pakai minyak goreng karena akan ditumis dan bumbunya kan sedikit... Jangan pakai air, kelamaan nanti buat bikin surut sebelum ditumis\n
+\n
+\n
+        Siapkan beras di Magicom dengan air perbandingan 1:1\n
+\n
+\n
+        Tambahkan serai, lengkuas, daun salam dan daun jeruk\n
+\n
+\n
+        Tambahkan bumbu halus yang telah ditumis, aduk rata dulu yah karena agak menggupal.\n
+\n
+\n
+\n
+        Tambahkan santan jadi nya, saya pakai yang cair (65ml) lalu aduk rata\n
+\n
+\n
+\n
+        Masak ke Magicom, selamat mencoba...\n
+\n
+\n
+        </item>\n
+        <item>Langkah\n
+        Cuci beras hingga bersih\n
+\n
+\n
+        Masukkan semua bahan lalu aduk rata, hidupkan rice cooker. Masak seperti biasa.\n
+\n
+\n
+        Saya biasanya diaron hingga santan mengering, matikan api, tutup pancinya, biarkan setengah jam, baru dikukus sampai empuk.\n
+\n
+        </item>\n
+        <item>Langkah\n
+        15 Menit\n
+        Siapkan nasi dan dinginkan terlebih dahulu\n
+\n
+\n
+        Siapkan bakso, iris tipis sesuai selera dan rebus terlebih dahulu\n
+\n
+\n
+        Kupas, cuci dan haluskan bumbu.\n
+\n
+\n
+        Orak arik telur ayam kemudian sisihkan\n
+\n
+\n
+        Tumis bumbu dengan minyak sampai harum dan berubah warna\n
+\n
+\n
+        Campurkan bakso dan telur kedalam bumbu yg sudah ditumis\n
+\n
+\n
+        Masukkan nasi, aduk rata dan siap untuk disajikan\n
+\n
+        </item>\n
+        <item>Langkah\n
+        Ceplok telur satu persatu pecahkan kuningnya.\n
+\n
+\n
+        Oles roti tawar dengan mentega, dan oles bagian dalam drngan saus sambal.\n
+\n
+\n
+        Taburi keju parut dan mayo.\n
+\n
+\n
+        Taruh telor ceplok 1 buah ke masing1 satu tangkap roti.\n
+\n
+\n
+        Tumis irisan kol dan wortel sebntar saja tambahkan garam.\n
+\n
+\n
+        Taruh ke dalam roti.\n
+\n
+\n
+        Olesi roti dgn mentega lalu panggan di wajan dgn api kecil.\n
+\n
+\n
+        Tunggu sampai roti kecoklatan lalu balik ke sisi lain.\n
+\n
+\n
+        Angkat, siap dihidangkan. Cocok juga untuk bekal.\n
+\n
+        </item>\n
+        <item>Langkah\n
+        Panaskan mentega di atas teflon, Saya panggang terlebih dahulu roti dan sosisnya\n
+\n
+\n
+        Kemudian isi rotinya dgn selada, keju, sosis dan saosnya secukupnya panggang sampai agak meleleh kejunya, bolak balik seperlunya saja sampai cukup kecoklatan lalu angkat. Belah dua bentuk segitiga dan sajikan.\n
+\n
+\n
+        Sekedar info: utk bahan saya pakai roti tawar sari roti, keju dari red cheese merk anchor, sosis besar merk kimbo. Saya tidak menggunakan mayonaise ya krn tdk suka, lebih enak lagi kalo di tambah mayonaise. Untuk pemakaian bahan2nya sesuaikan saja apa yg ada tdk hrs merk itu 😊\n
+\n
+        </item>
     </string-array>
     <string-array name="title">
         <item>Cara 1</item>

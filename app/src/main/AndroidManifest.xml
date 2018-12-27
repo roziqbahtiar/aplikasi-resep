@@ -12,9 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity"></activity>
         <activity
             android:name=".ResepTampil"
             android:label="Detail Masakkan"
@@ -29,8 +27,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Barcode"
-            android:parentActivityName=".MainActivity" ></activity>
+        <activity
+            android:name=".Barcode"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".History"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>

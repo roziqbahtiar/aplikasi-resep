@@ -66,9 +66,14 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
 
 
-        if (item.getItemId() == R.id.infoKoki){
+        int id = item.getItemId();
+        if (id == R.id.infoKoki){
            Intent intent = new Intent(MainActivity.this, Barcode.class);
            startActivity(intent);
+        }
+        if (id == R.id.hisory){
+            Intent intent = new Intent(MainActivity.this, History.class);
+            startActivity(intent);
         }
         return true;
     }

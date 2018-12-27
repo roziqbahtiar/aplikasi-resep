@@ -43,34 +43,45 @@ public class DBHelper extends SQLiteOpenHelper{
                                                     kolomDesc+" TEXT,"+
                                                     kolomBahan+" TEXT, "+
                                                     kolomCara+" TEXT )";
+    public final static String TABEL_HISTORY = "history";
+    public final static String kolomIdHistory = "id_history";
+    public final static String kolomCount = "count";
 
+    public final static String CREATE_TABLE_HISTORY = "CREATE TABLE "+TABEL_HISTORY+" ("+
+                                                        kolomIdHistory+" INTEGER PRIMARY KEY AUTOINCREMENT, "+
+                                                        kolomidResep+" INTEGER UNIQUE, "+
+                                                        kolomCount+" INTEGER )";
 
     public DBHelper(Context context, List<ResepModel> resepModelList) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
         this.dbContext = context;
         this.resepModelList = resepModelList;
 
-        Log.i("tblQry", CREATE_TABLE_RESEP);
+        //Log.i("tblQry", CREATE_TABLE_RESEP);
         //DATABASE_NAME = DBActivity.DatabaseName;
         // checking database and open it if exists
+
         if (checkDataBase()) {
             openDataBase();
         } else
         {
-            try {
-                open();
+            if (resepModelList != null) {
+                try {
+                    open();
 
-                db.execSQL(CREATE_TABLE_RESEP);
+                    db.execSQL(CREATE_TABLE_RESEP);
+                    db.execSQL(CREATE_TABLE_HISTORY);
 
-                copyDataBase(resepModelList);
+                    copyDataBase(resepModelList);
 
-                this.close();
-                openDataBase();
+                    this.close();
+                    openDataBase();
 
-            } catch (IOException e) {
-                throw new Error("Error copying database");
+                } catch (IOException e) {
+                    throw new Error("Error copying database");
+                }
+                Toast.makeText(dbContext, "Database sedang diimport", Toast.LENGTH_LONG).show();
             }
-            Toast.makeText(dbContext, "Database sedang diimport", Toast.LENGTH_LONG).show();
         }
 
     }
@@ -151,12 +162,34 @@ public class DBHelper extends SQLiteOpenHelper{
             do {
                 ResepModel resepModel = new ResepModel();
                 // dp.setNama(c.getInt(c.getColumnIndex(KOLOM_ID)));
+                resepModel.setId(c.getInt(c.getColumnIndex(kolomidResep)));
                 resepModel.setTitle(c.getString(c.getColumnIndex(kolomTitle)));
                 resepModel.setDesc(c.getString(c.getColumnIndex(kolomDesc)));
                 resepModel.setBahan(c.getString(c.getColumnIndex(kolomBahan)));
                 resepModel.setCara(c.getString(c.getColumnIndex(kolomCara)));
 
                resepModelList.add(resepModel);
+
+            } while (c.moveToNext());
+        }
+        return resepModelList;
+    }
+
+    public List<ResepModel> getListResepHistory() {
+        List<ResepModel> resepModelList = new ArrayList<>();
+        Cursor c = getReadableDatabase().rawQuery("select a.* from "+TABEL_RESEP+" as a,"+TABEL_HISTORY+" as b where a.id_resep = b.id_resep order by b.id_history desc", null);
+
+        if (c.moveToFirst()) {
+            do {
+                ResepModel resepModel = new ResepModel();
+                // dp.setNama(c.getInt(c.getColumnIndex(KOLOM_ID)));
+                resepModel.setId(c.getInt(c.getColumnIndex(kolomidResep)));
+                resepModel.setTitle(c.getString(c.getColumnIndex(kolomTitle)));
+                resepModel.setDesc(c.getString(c.getColumnIndex(kolomDesc)));
+                resepModel.setBahan(c.getString(c.getColumnIndex(kolomBahan)));
+                resepModel.setCara(c.getString(c.getColumnIndex(kolomCara)));
+
+                resepModelList.add(resepModel);
 
             } while (c.moveToNext());
         }

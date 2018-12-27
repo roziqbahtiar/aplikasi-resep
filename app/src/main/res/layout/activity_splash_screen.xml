@@ -9,14 +9,21 @@
     tools:context=".SplashScreen"
     android:gravity="center">
 
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/chef2"
+        android:layout_gravity="center"
+        />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="RESEP MASAKAN"
         android:textSize="20sp"
-        android:textColor="#000"
+        android:textColor="@color/colorPrimary"
         android:textStyle="bold|italic"
-        android:fontFamily="casual"/>
+        android:fontFamily="casual"
+        android:layout_marginTop="10dp"/>
 
 </LinearLayout>

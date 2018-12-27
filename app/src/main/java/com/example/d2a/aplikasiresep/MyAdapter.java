@@ -72,6 +72,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyHolder>{
             String element1 = resepModelList.get(mPosition).getBahan();//bahan.get(mPosition);
             String element2 = resepModelList.get(mPosition).getCara();//cara.get(mPosition);
             Intent intent = new Intent(view.getContext(), ResepTampil.class);
+            intent.putExtra("idResep", resepModelList.get(mPosition).getId());
             intent.putExtra("title",element);
             intent.putExtra("bahan", element1);
             intent.putExtra("cara", element2);

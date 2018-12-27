@@ -2,6 +2,7 @@ package com.example.d2a.aplikasiresep.data;
 
 public class ResepModel {
 
+    int id;
     String title;
     String image;
     String desc;
@@ -22,6 +23,14 @@ public class ResepModel {
 
     public String getCara() {
         return cara;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public void setCara(String cara) {
